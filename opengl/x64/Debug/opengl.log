@@ -1,0 +1,6 @@
+﻿  Main.cpp
+  Model.cpp
+C:\Users\yWX1335067\source\repos\opengl\Model.cpp(262,91): warning C4267: 'argument': conversion from 'size_t' to 'GLuint', possible loss of data
+C:\Users\yWX1335067\source\repos\opengl\Model.cpp(270,93): warning C4267: 'argument': conversion from 'size_t' to 'GLuint', possible loss of data
+  Generating Code...
+  opengl.vcxproj -> C:\Users\yWX1335067\source\repos\opengl\x64\Debug\opengl.exe

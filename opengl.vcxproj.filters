@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{e5b243c3-a200-489a-be83-e01cab9ea3e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures">
+      <UniqueIdentifier>{ac8a8b17-acc3-4d60-88e0-9f3443636d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\bunny">
+      <UniqueIdentifier>{9018b336-b62b-43fc-8fa7-6bb25934712a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\ground">
+      <UniqueIdentifier>{ded3c96d-4d16-4ed1-9e44-715b1655eaa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\trees">
+      <UniqueIdentifier>{6f0113b3-6060-4d29-86e1-055b84fa898f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\cow">
+      <UniqueIdentifier>{484636de-6666-4aac-a0bc-13bccc0ecaa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\cow-outline">
+      <UniqueIdentifier>{17206fb3-75ba-4e3b-85b0-4b72f57722ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\bud">
+      <UniqueIdentifier>{031d23f8-8b10-468e-a576-62c9be063efc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\grass">
+      <UniqueIdentifier>{d7d63385-7b38-4bc5-937a-3879f3bc0ef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\windows">
+      <UniqueIdentifier>{f6d78d48-b7c0-4f73-a0d6-9da0f9d9536e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VBO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EBO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VAO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="default.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="default.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="light.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="light.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="bunny\scene.gltf">
+      <Filter>Resource Files\bunny</Filter>
+    </None>
+    <None Include="bunny\scene.bin">
+      <Filter>Resource Files\bunny</Filter>
+    </None>
+    <None Include="trees\scene.bin">
+      <Filter>Resource Files\trees</Filter>
+    </None>
+    <None Include="trees\scene.gltf">
+      <Filter>Resource Files\trees</Filter>
+    </None>
+    <None Include="ground\scene.bin">
+      <Filter>Resource Files\ground</Filter>
+    </None>
+    <None Include="ground\scene.gltf">
+      <Filter>Resource Files\ground</Filter>
+    </None>
+    <None Include="outlining.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="cow\scene.gltf">
+      <Filter>Resource Files\cow</Filter>
+    </None>
+    <None Include="cow\scene.bin">
+      <Filter>Resource Files\cow</Filter>
+    </None>
+    <None Include="cow-outline\scene.bin">
+      <Filter>Resource Files\cow-outline</Filter>
+    </None>
+    <None Include="cow-outline\scene.gltf">
+      <Filter>Resource Files\cow-outline</Filter>
+    </None>
+    <None Include="bud\scene.gltf">
+      <Filter>Resource Files\bud</Filter>
+    </None>
+    <None Include="bud\scene.bin">
+      <Filter>Resource Files\bud</Filter>
+    </None>
+    <None Include="grass.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="windows.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="grass\scene.bin">
+      <Filter>Resource Files\grass</Filter>
+    </None>
+    <None Include="grass\scene.gltf">
+      <Filter>Resource Files\grass</Filter>
+    </None>
+    <None Include="windows\scene.bin">
+      <Filter>Resource Files\windows</Filter>
+    </None>
+    <None Include="windows\scene.gltf">
+      <Filter>Resource Files\windows</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shaderClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VBO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EBO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VAO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Downloads\pop_cat.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\brick.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="planksSpec.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="planks.png">
+      <Filter>Resource Files\Textures</Filter>
+    </Image>
+    <Image Include="bunny\baseColor.png">
+      <Filter>Resource Files\bunny</Filter>
+    </Image>
+    <Image Include="bunny\metallicRoughness.png">
+      <Filter>Resource Files\bunny</Filter>
+    </Image>
+    <Image Include="trees\diffuse.png">
+      <Filter>Resource Files\trees</Filter>
+    </Image>
+    <Image Include="trees\specular.png">
+      <Filter>Resource Files\trees</Filter>
+    </Image>
+    <Image Include="ground\diffuse.png">
+      <Filter>Resource Files\ground</Filter>
+    </Image>
+    <Image Include="ground\specular.png">
+      <Filter>Resource Files\ground</Filter>
+    </Image>
+    <Image Include="cow\diffuse.png">
+      <Filter>Resource Files\cow</Filter>
+    </Image>
+    <Image Include="cow-outline\diffuse.png">
+      <Filter>Resource Files\cow-outline</Filter>
+    </Image>
+    <Image Include="bud\170516_mia337_032122_600_200Kfaces_8192px_OBJ_baseColor.jpg">
+      <Filter>Resource Files\bud</Filter>
+    </Image>
+    <Image Include="grass\diffuse.png">
+      <Filter>Resource Files\grass</Filter>
+    </Image>
+    <Image Include="grass\specular.png">
+      <Filter>Resource Files\grass</Filter>
+    </Image>
+    <Image Include="windows\diffuse.png">
+      <Filter>Resource Files\windows</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="outlining.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
